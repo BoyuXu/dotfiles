@@ -41,10 +41,10 @@ set foldlevelstart=10    " start with fold level of 1
 " Line Shortcuts {{{
 nnoremap j gj
 nnoremap k gk
-nnoremap B ^
-nnoremap E $
-nnoremap $ <nop>
-nnoremap ^ <nop>
+" nnoremap B ^
+" nnoremap E $
+" nnoremap $ <nop>
+" nnoremap ^ <nop>
 nnoremap gV `[v`]
 onoremap an :<c-u>call <SID>NextTextObject('a', 'f')<cr>
 xnoremap an :<c-u>call <SID>NextTextObject('a', 'f')<cr>
